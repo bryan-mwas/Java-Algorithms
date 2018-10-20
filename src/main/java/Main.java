@@ -141,5 +141,7 @@ public class Main {
         System.out.println(getMaxProfit(new int[]{9, 7, 4, 1}));
         System.out.println(getMaxProfitOpt(new int[]{9, 7, 4, 1}));
         System.out.println("Opt: " + getMaxProfitOpt(new int[]{7, 2, 8, 9}));
+        System.out.println("Opt: " + IntegerAlgorithms.isOrCanBePalindrome(999998));
+        System.out.println("Opt: " + IntegerAlgorithms.isOrCanBePalindrome(10989));
     }
 }
