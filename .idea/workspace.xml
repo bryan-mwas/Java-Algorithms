@@ -2,9 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cba807dd-f93c-490a-ad36-336521b383f3" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/IntegerAlgorithms.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Robbery.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ArrayStrings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ArrayStrings.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/IntegerAlgorithms.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/IntegerAlgorithms.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ArrayStrings.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ArrayStrings.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Main.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -36,11 +40,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="478">
-              <caret line="143" column="65" selection-start-line="143" selection-start-column="65" selection-end-line="143" selection-end-column="65" />
+            <state relative-caret-position="429">
+              <caret line="200" column="106" selection-start-line="200" selection-start-column="106" selection-end-line="200" selection-end-column="106" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -51,21 +55,26 @@
       <file leaf-file-name="ArrayStrings.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ArrayStrings.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="17" column="41" lean-forward="true" selection-start-line="17" selection-start-column="41" selection-end-line="17" selection-end-column="41" />
+            <state relative-caret-position="1463">
+              <caret line="77" column="19" selection-start-line="77" selection-start-column="19" selection-end-line="77" selection-end-column="19" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="IntegerAlgorithms.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="IntegerAlgorithms.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/IntegerAlgorithms.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="12" column="40" lean-forward="true" selection-start-line="12" selection-start-column="40" selection-end-line="12" selection-end-column="40" />
-              <folding>
-                <element signature="e#900#901#0" expanded="true" />
-                <element signature="e#941#942#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="67">
+              <caret line="78" column="32" lean-forward="true" selection-start-line="78" selection-start-column="32" selection-end-line="78" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Robbery.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Robbery.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="418">
+              <caret line="22" selection-start-line="22" selection-end-line="22" />
             </state>
           </provider>
         </entry>
@@ -73,8 +82,8 @@
       <file leaf-file-name="PrintStream.java" pinned="false" current-in-tab="false">
         <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/io/PrintStream.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="22">
-              <caret line="705" column="16" selection-start-line="705" selection-start-column="16" selection-end-line="705" selection-end-column="16" />
+            <state relative-caret-position="14288">
+              <caret line="803" column="16" selection-start-line="803" selection-start-column="16" selection-end-line="803" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -125,9 +134,10 @@
         <option value="$PROJECT_DIR$/src/main/java/Recursion.java" />
         <option value="$PROJECT_DIR$/src/main/java/ArrayStringsAlgo.java" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/src/main/java/Robbery.java" />
         <option value="$PROJECT_DIR$/src/main/java/ArrayStrings.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Main.java" />
         <option value="$PROJECT_DIR$/src/main/java/IntegerAlgorithms.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Main.java" />
       </list>
     </option>
   </component>
@@ -139,17 +149,18 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="2272" />
-    <option name="width" value="663" />
-    <option name="height" value="552" />
+    <option name="y" value="34" />
+    <option name="width" value="1366" />
+    <option name="height" value="734" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="AndroidView" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -185,7 +196,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -214,13 +224,13 @@
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
-    <configuration name="Main.exceptionWithEmptyPricesTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Main.addOneToArray" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Java_Algorithms" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="Main" />
-      <option name="METHOD_NAME" value="exceptionWithEmptyPricesTest" />
+      <option name="METHOD_NAME" value="addOneToArray" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -231,13 +241,13 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="Main.priceGoesDownAllDayTestOpt" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Main.longestSubstringCaseSensitive" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Java_Algorithms" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="Main" />
-      <option name="METHOD_NAME" value="priceGoesDownAllDayTestOpt" />
+      <option name="METHOD_NAME" value="longestSubstringCaseSensitive" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -248,13 +258,13 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="Main.priceGoesDownThenUpTestOpt" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Main.longestSubstringTrickyCase" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Java_Algorithms" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="Main" />
-      <option name="METHOD_NAME" value="priceGoesDownThenUpTestOpt" />
+      <option name="METHOD_NAME" value="longestSubstringTrickyCase" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -265,13 +275,13 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="Main.priceGoesUpAllDayTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Main.longestSubstringW" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Java_Algorithms" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="Main" />
-      <option name="METHOD_NAME" value="priceGoesUpAllDayTest" />
+      <option name="METHOD_NAME" value="longestSubstringW" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -321,19 +331,19 @@
       <listeners />
     </configuration>
     <list>
+      <item itemvalue="JUnit.Main.longestSubstringW" />
+      <item itemvalue="JUnit.Main.longestSubstringCaseSensitive" />
+      <item itemvalue="JUnit.Main.longestSubstringTrickyCase" />
+      <item itemvalue="JUnit.Main.addOneToArray" />
       <item itemvalue="Application.Main" />
-      <item itemvalue="JUnit.Main.exceptionWithEmptyPricesTest" />
-      <item itemvalue="JUnit.Main.priceGoesUpAllDayTest" />
-      <item itemvalue="JUnit.Main.priceGoesDownThenUpTestOpt" />
-      <item itemvalue="JUnit.Main.priceGoesDownAllDayTestOpt" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />
-        <item itemvalue="JUnit.Main.priceGoesDownAllDayTestOpt" />
-        <item itemvalue="JUnit.Main.priceGoesDownThenUpTestOpt" />
-        <item itemvalue="JUnit.Main.exceptionWithEmptyPricesTest" />
-        <item itemvalue="JUnit.Main.priceGoesUpAllDayTest" />
+        <item itemvalue="JUnit.Main.addOneToArray" />
+        <item itemvalue="JUnit.Main.longestSubstringTrickyCase" />
+        <item itemvalue="JUnit.Main.longestSubstringCaseSensitive" />
+        <item itemvalue="JUnit.Main.longestSubstringW" />
       </list>
     </recent_temporary>
   </component>
@@ -351,61 +361,61 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Main_exceptionWithEmptyPricesTest - 2018.10.19 at 17h 59m 28s.xml">
-      <configuration name="Main.exceptionWithEmptyPricesTest" configurationId="JUnit" />
+    <history-entry file="Main_longestSubstringCaseSensitive - 2018.10.24 at 22h 32m 18s.xml">
+      <configuration name="Main.longestSubstringCaseSensitive" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Main_exceptionWithOnePriceTest - 2018.10.19 at 17h 59m 44s.xml">
-      <configuration name="Main.exceptionWithOnePriceTest" configurationId="JUnit" />
+    <history-entry file="Main_longestSubstringCaseSensitive - 2018.10.24 at 22h 32m 39s.xml">
+      <configuration name="Main.longestSubstringCaseSensitive" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Main_priceGoesUpAllDayTest - 2018.10.19 at 17h 59m 58s.xml">
-      <configuration name="Main.priceGoesUpAllDayTest" configurationId="JUnit" />
+    <history-entry file="Main_longestSubstringCaseSensitive - 2018.10.24 at 22h 34m 02s.xml">
+      <configuration name="Main.longestSubstringCaseSensitive" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Main_priceGoesUpAllDayTest - 2018.10.19 at 18h 01m 23s.xml">
-      <configuration name="Main.priceGoesUpAllDayTest" configurationId="JUnit" />
+    <history-entry file="Main_longestSubstringCaseSensitive - 2018.10.24 at 22h 34m 29s.xml">
+      <configuration name="Main.longestSubstringCaseSensitive" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Main_priceGoesDownThenUpTestOpt - 2018.10.19 at 19h 51m 47s.xml">
-      <configuration name="Main.priceGoesDownThenUpTestOpt" configurationId="JUnit" />
+    <history-entry file="Main_longestSubstringCaseSensitive - 2018.10.24 at 22h 34m 54s.xml">
+      <configuration name="Main.longestSubstringCaseSensitive" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Main_priceGoesDownThenUpTestOpt - 2018.10.19 at 19h 55m 09s.xml">
-      <configuration name="Main.priceGoesDownThenUpTestOpt" configurationId="JUnit" />
+    <history-entry file="Main_longestSubstringTrickyCase - 2018.10.24 at 22h 36m 52s.xml">
+      <configuration name="Main.longestSubstringTrickyCase" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Main_exceptionWithEmptyPricesTest - 2018.10.19 at 20h 16m 55s.xml">
-      <configuration name="Main.exceptionWithEmptyPricesTest" configurationId="JUnit" />
+    <history-entry file="Main_longestSubstringTrickyCase - 2018.10.26 at 12h 26m 10s.xml">
+      <configuration name="Main.longestSubstringTrickyCase" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Main_priceGoesDownThenUpTestOpt - 2018.10.19 at 20h 47m 11s.xml">
-      <configuration name="Main.priceGoesDownThenUpTestOpt" configurationId="JUnit" />
+    <history-entry file="Main_longestSubstringTrickyCase - 2018.10.26 at 12h 26m 24s.xml">
+      <configuration name="Main.longestSubstringTrickyCase" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Main_priceGoesDownAllDayTestOpt - 2018.10.19 at 20h 48m 30s.xml">
-      <configuration name="Main.priceGoesDownAllDayTestOpt" configurationId="JUnit" />
+    <history-entry file="Main_addOneToArray - 2018.10.26 at 13h 03m 45s.xml">
+      <configuration name="Main.addOneToArray" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Main_priceGoesDownAllDayTestOpt - 2018.10.19 at 20h 51m 03s.xml">
-      <configuration name="Main.priceGoesDownAllDayTestOpt" configurationId="JUnit" />
+    <history-entry file="Main_addOneToArray - 2018.10.26 at 13h 04m 55s.xml">
+      <configuration name="Main.addOneToArray" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1366" y="0" width="1920" height="1080" extended-state="6" />
+    <frame x="0" y="34" width="1366" height="734" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.3280757" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.32561985" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.20925342" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.3289256" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.4033058" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.3280757" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1856383" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.19457014" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Coverage" order="4" side_tool="true" weight="0.3295626" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -424,6 +434,100 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4484">
+          <caret line="236" column="7" selection-start-line="236" selection-start-column="7" selection-end-line="236" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="6" selection-start-column="6" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Recursion.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="29" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ArrayStrings.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3762">
+          <caret line="198" column="46" selection-start-line="198" selection-start-column="46" selection-end-line="198" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="21" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2717">
+          <caret line="143" column="75" lean-forward="true" selection-start-line="143" selection-start-column="75" selection-end-line="143" selection-end-column="75" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ArrayStrings.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" column="41" lean-forward="true" selection-start-line="17" selection-start-column="41" selection-end-line="17" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/IntegerAlgorithms.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="32" selection-start-column="32" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/io/PrintStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="13395">
+          <caret line="705" column="16" selection-start-line="705" selection-start-column="16" selection-end-line="705" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4484">
+          <caret line="236" column="7" selection-start-line="236" selection-start-column="7" selection-end-line="236" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="6" selection-start-column="6" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Recursion.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="29" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Robbery.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="361">
@@ -654,6 +758,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Robbery.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/io/PrintStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="14288">
+          <caret line="803" column="16" selection-start-line="803" selection-start-column="16" selection-end-line="803" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="266">
@@ -663,35 +781,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ArrayStrings.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="17" column="41" lean-forward="true" selection-start-line="17" selection-start-column="41" selection-end-line="17" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/io/PrintStream.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="705" column="16" selection-start-line="705" selection-start-column="16" selection-end-line="705" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="478">
-          <caret line="143" column="65" selection-start-line="143" selection-start-column="65" selection-end-line="143" selection-end-column="65" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="1463">
+          <caret line="77" column="19" selection-start-line="77" selection-start-column="19" selection-end-line="77" selection-end-column="19" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/IntegerAlgorithms.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="40" lean-forward="true" selection-start-line="12" selection-start-column="40" selection-end-line="12" selection-end-column="40" />
+        <state relative-caret-position="67">
+          <caret line="78" column="32" lean-forward="true" selection-start-line="78" selection-start-column="32" selection-end-line="78" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="429">
+          <caret line="200" column="106" selection-start-line="200" selection-start-column="106" selection-end-line="200" selection-end-column="106" />
           <folding>
-            <element signature="e#900#901#0" expanded="true" />
-            <element signature="e#941#942#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

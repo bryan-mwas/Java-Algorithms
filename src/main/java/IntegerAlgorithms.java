@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 public class IntegerAlgorithms {
     public static int reverseInt(int n) {
         int reverse = 0;
@@ -42,5 +44,60 @@ public class IntegerAlgorithms {
             num += reverse;
         }
         return false;
+    }
+
+    public static int lengthOfLongestSubstring(String s) {
+        // Handle nulls
+        if (s == null || s.length() == 0) return 0;
+        // For every character check if its unique.
+        // I assume that the string is in ASCII and it is case sensitive
+        // Boolean to track letters
+        boolean[] chars = new boolean[128];
+        int intermediateLength = 0; // Longest substring tracker
+        int highest = 0; // Gotten from Math.max() function
+        for (int i = 0; i < s.length(); i++) {
+            int value = s.charAt(i);
+            if (chars[value]) {
+                // Compare to update the highest value
+                highest = Math.max(highest, intermediateLength);
+                // Reset the tracker to 0 to track the next substring
+                intermediateLength = 0;
+                // Reinitialize the boolean. To start substring tracking
+                chars = new boolean[128];
+            }
+            intermediateLength++;
+            highest = Math.max(highest, intermediateLength);
+            chars[value] = true;
+        }
+        return highest;
+    }
+
+    /**
+     * Adds one to array
+     * Time complexity of O(n)
+     */
+    public static int[] addOneToArray(int [] numArray) {
+        // Validate input
+        if (numArray == null || numArray.length == 0) {
+            throw new IllegalArgumentException("Please enter valid input.");
+        }
+        int carry = 1;
+        int total;
+        for (int i = numArray.length - 1; i >= 0; i--) {
+            total = carry + numArray[i];
+            if(total == 10) {
+                if(i == 0) {
+                    numArray = new int[numArray.length + 1];
+                    numArray[0] = 1;
+                    return numArray;
+                }
+                System.out.println(Arrays.toString(numArray));
+                numArray[i] = total % 10;
+            } else {
+                carry = 0;
+                numArray[i] = total;
+            }
+        }
+        return numArray;
     }
 }

@@ -1,5 +1,7 @@
 import org.junit.Test;
 
+import java.util.Arrays;
+
 import static junit.framework.TestCase.assertEquals;
 
 public class Main {
@@ -107,10 +109,59 @@ public class Main {
     }
 
     @Test
+    public void longestSubstring() {
+        final int actual = IntegerAlgorithms.lengthOfLongestSubstring("geeksforgeeks");
+        final int expected = 7;
+        assertEquals(expected, actual);
+    }
+
+    @Test
+    public void longestSubstringCaseSensitive() {
+        final int actual = IntegerAlgorithms.lengthOfLongestSubstring("qwerty");
+        final int expected = 6;
+        assertEquals(expected, actual);
+    }
+
+    @Test
+    public void longestSubstringTrickyCase() {
+        final int actual = IntegerAlgorithms.lengthOfLongestSubstring("advdfg");
+        final int expected = 4;
+        assertEquals(expected, actual);
+    }
+
+    @Test
+    public void addOneToArray() {
+        final int[] actual = IntegerAlgorithms.addOneToArray(new int[] {1,2,9});
+        final int[] expected = new int[] {1,3,0};
+        assertEquals(expected, actual);
+    }
+
+    @Test
+    public void longestSubstringReturns0ForNulls() {
+        final int actual = IntegerAlgorithms.lengthOfLongestSubstring(null);
+        final int expected = 0;
+        assertEquals(expected, actual);
+    }
+
+    @Test
     public void priceStaysTheSameAllDayTest() {
         final int actual = getMaxProfit(new int[]{1, 1, 1, 1});
         final int expected = 0;
         assertEquals(expected, actual);
+    }
+
+    @Test
+    public void whenCallSubstring_thenCorrect() {
+        String s = "Welcome to Testing";
+
+        assertEquals("Welcome", s.substring(0, 7));
+    }
+
+    @Test
+    public void whenCallSubSequence_thenCorrect() {
+        String s = "Welcome to Testing";
+
+        assertEquals("Welcome", s.subSequence(0, 7));
     }
 
     @Test(expected = Exception.class)
@@ -143,5 +194,10 @@ public class Main {
         System.out.println("Opt: " + getMaxProfitOpt(new int[]{7, 2, 8, 9}));
         System.out.println("Opt: " + IntegerAlgorithms.isOrCanBePalindrome(999998));
         System.out.println("Opt: " + IntegerAlgorithms.isOrCanBePalindrome(10989));
+        System.out.println("Caesar Cipher: " + ArrayStrings.caesarCipher("1:some test"));
+        System.out.println("Permutation Palindrome: " + ArrayStrings.isPermutationPalindrome("icivc"));
+
+        System.out.println("Array: " + Arrays.toString(IntegerAlgorithms.addOneToArray(new int[]{9,9})));
+        System.out.println("Array: " + Arrays.toString(IntegerAlgorithms.addOneToArray(new int [] {1,3,2,4})));
     }
 }

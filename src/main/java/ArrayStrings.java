@@ -141,8 +141,8 @@ class ArrayStrings {
     static String urlify(String string) {
         string = string.trim(); // Remove prevailing or trailing whitespace
         StringBuilder stringBuilder = new StringBuilder();
-        for(int i = 0; i < string.length(); i++) {
-            if(string.charAt(i) == ' ')
+        for (int i = 0; i < string.length(); i++) {
+            if (string.charAt(i) == ' ')
                 stringBuilder.append("%20");
             else
                 stringBuilder.append(string.charAt(i));
@@ -151,9 +151,101 @@ class ArrayStrings {
     }
 
     static void reverseString(String s) {
-        for(int a = s.length() - 1; a >= 0; a--) {
+        for (int a = s.length() - 1; a >= 0; a--) {
             System.out.println(s.charAt(a));
         }
     }
+
+
+    /**
+     * This only works for the following cases,
+     * Cases to work on
+     *
+     * @param s
+     * @return
+     */
+    static String caesarCipher(String s) {
+        // Validation
+        if (s == null) {
+            return null;
+        }
+        // Split the string based on :
+        String splitString[] = s.split(":");
+        int cipher = Integer.parseInt(splitString[0]);
+        System.out.println("Cipher " + cipher);
+        String actual = splitString[1];
+        System.out.println(actual);
+        if (cipher < -1000000000 || cipher > 1000000000) return null;
+        int stringShift = cipher % 26;
+        int integerShift = cipher % 10;
+        System.out.println("Cipher int " + integerShift);
+        StringBuilder result = new StringBuilder();
+        for (int i = 0; i < actual.length(); i++) {
+            if (actual.charAt(i) >= 'A' && actual.charAt(i) <= 'Z' ||
+                    actual.charAt(i) >= 'a' && actual.charAt(i) <= 'z' ||
+                    actual.charAt(i) >= '0' && actual.charAt(i) <= '9') {
+                if (actual.charAt(i) >= '0' && actual.charAt(i) <= '9') {
+                    char number = (char) (actual.charAt(i) + integerShift);
+                    System.out.println("Number :" + actual.charAt(i) + integerShift);
+                    if (number > '9') {
+                        number = (char) (number - 10);
+                    } else if (number < '0') {
+                        number = (char) (number + 10);
+                    }
+                    result.append(number);
+                    System.out.println("Output number: " + number);
+                } else {
+                    char letter = (char) (actual.charAt(i) + stringShift);
+                    System.out.println("String :" + (actual.charAt(i) + stringShift));
+                    if (letter > 'z') {
+                        letter = (char) (letter - 26);
+                    } else if (letter < 'a') {
+                        letter = (char) (letter + 26);
+                    }
+                    result.append(letter);
+                    System.out.println("Output letter: " + letter);
+                }
+            } else {
+                result.append(actual.charAt(i));
+            }
+        }
+        return result.toString();
+    }
+
+    static int getCharNumber(Character c) {
+        int a = Character.getNumericValue('a');
+        int z = Character.getNumericValue('z');
+        int val = Character.getNumericValue(c);
+        if (a <= val && val <= z) {
+            return val - a;
+        }
+        return -1;
+    }
+
+    /**
+     * Permutation of a palindrome
+     */
+    static boolean isPermutationPalindrome(String str) {
+        // Validation
+        if (str == null || str.length() > 128) return false;
+        // A string must have at least one odd character count for
+        // it to be considered a permutation of a palindrome
+        // Introduce a hash table
+        int chars[] = new int[Character.getNumericValue('z') - Character.getNumericValue('a') + 1];
+        // Track the odd count state.
+        int countOdd = 0;
+        for (char c : str.toCharArray()) {
+            int numericValue = getCharNumber(c);
+            chars[numericValue]++;
+            if (chars[numericValue] % 2 == 1) {
+                countOdd++;
+            } else {
+                countOdd--;
+            }
+        }
+
+        return countOdd <= 1;
+    }
+
 
 }
