@@ -150,10 +150,12 @@ class ArrayStrings {
         return stringBuilder.toString();
     }
 
-    static void reverseString(String s) {
+    public static String reverseString(String s) {
+        StringBuilder stringBuilder = new StringBuilder();
         for (int a = s.length() - 1; a >= 0; a--) {
-            System.out.println(s.charAt(a));
+            stringBuilder.append(s.charAt(a));
         }
+        return stringBuilder.toString();
     }
 
 

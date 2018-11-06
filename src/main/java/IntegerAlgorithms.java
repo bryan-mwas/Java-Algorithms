@@ -76,7 +76,7 @@ public class IntegerAlgorithms {
      * Adds one to array
      * Time complexity of O(n)
      */
-    public static int[] addOneToArray(int [] numArray) {
+    public static int[] addOneToArray(int[] numArray) {
         // Validate input
         if (numArray == null || numArray.length == 0) {
             throw new IllegalArgumentException("Please enter valid input.");
@@ -85,8 +85,8 @@ public class IntegerAlgorithms {
         int total;
         for (int i = numArray.length - 1; i >= 0; i--) {
             total = carry + numArray[i];
-            if(total == 10) {
-                if(i == 0) {
+            if (total == 10) {
+                if (i == 0) {
                     numArray = new int[numArray.length + 1];
                     numArray[0] = 1;
                     return numArray;
@@ -99,5 +99,26 @@ public class IntegerAlgorithms {
             }
         }
         return numArray;
+    }
+
+    static void pushZerosToEnd(int arr[], int n) {
+        int count = 0;  // Count of non-zero elements
+
+        // Traverse the array. If element encountered is
+        // non-zero, then replace the element at index 'count'
+        // with this element
+        for (int i = 0; i < n; i++)
+            if (arr[i] != 0) {
+                arr[count++] = arr[i]; // here count is
+                System.out.println("Arr" + arr[i] + " count" + count);
+                System.out.println("Arr" + Arrays.toString(arr));
+            }
+        // incremented
+
+        // Now all non-zero elements have been shifted to
+        // front and 'count' is set as index of first 0.
+        // Make all elements 0 from count to end.
+        while (count < n)
+            arr[count++] = 0;
     }
 }

@@ -131,8 +131,8 @@ public class Main {
 
     @Test
     public void addOneToArray() {
-        final int[] actual = IntegerAlgorithms.addOneToArray(new int[] {1,2,9});
-        final int[] expected = new int[] {1,3,0};
+        final int[] actual = IntegerAlgorithms.addOneToArray(new int[]{1, 2, 9});
+        final int[] expected = new int[]{1, 3, 0};
         assertEquals(expected, actual);
     }
 
@@ -158,6 +158,20 @@ public class Main {
     }
 
     @Test
+    public void reverseString() {
+        final String actual = ArrayStrings.reverseString("aba");
+        final String reverse = "aba";
+        assertEquals(reverse, actual);
+    }
+
+    @Test
+    public void testIsPalindrome() {
+        final boolean actual = "aba".equals(ArrayStrings.reverseString("aba"));
+        final boolean expected = true;
+        assertEquals(expected, actual);
+    }
+
+    @Test
     public void whenCallSubSequence_thenCorrect() {
         String s = "Welcome to Testing";
 
@@ -174,6 +188,28 @@ public class Main {
         getMaxProfit(new int[]{});
     }
 
+    public static String checkIfSmoothArray(int n , int [] arr) {
+        boolean diffIs1 = false;
+        for(int i = 0; i < arr.length; i++) {
+            if(i+1 < arr.length) {
+                diffIs1 = java.lang.Math.abs(arr[i + 1] - arr[i]) <= 1;
+                System.out.println(java.lang.Math.abs(arr[i + 1] - arr[i]));
+                if(!diffIs1) {
+                    break;
+                }
+            }
+        }
+        if(diffIs1) return "YES";
+        else return "NO";
+    }
+
+    @Test
+    public void testSmoothArray() {
+        final String actual = checkIfSmoothArray(4 ,new int[]{1,1,8,2});
+        final String expected = "NO";
+        assertEquals(expected, actual);
+    }
+
     public static void main(String[] args) {
         System.out.println(ArrayStrings.isUniqueString("alice"));
         System.out.println(ArrayStrings.stringCompress("aaaaaaaaaaaaliccccce"));
@@ -187,7 +223,6 @@ public class Main {
         System.out.println(ArrayStrings.isPermutation("boy", "ytb"));
         System.out.println(ArrayStrings.urlify("Mr John Smith  "));
         int[] stockPrices = new int[]{10, 7, 5, 8, 11, 9};
-        ArrayStrings.reverseString("Hellooo");
         System.out.println(getMaxProfit(stockPrices));
         System.out.println(getMaxProfit(new int[]{9, 7, 4, 1}));
         System.out.println(getMaxProfitOpt(new int[]{9, 7, 4, 1}));
@@ -197,7 +232,14 @@ public class Main {
         System.out.println("Caesar Cipher: " + ArrayStrings.caesarCipher("1:some test"));
         System.out.println("Permutation Palindrome: " + ArrayStrings.isPermutationPalindrome("icivc"));
 
-        System.out.println("Array: " + Arrays.toString(IntegerAlgorithms.addOneToArray(new int[]{9,9})));
-        System.out.println("Array: " + Arrays.toString(IntegerAlgorithms.addOneToArray(new int [] {1,3,2,4})));
+        System.out.println("Array: " + Arrays.toString(IntegerAlgorithms.addOneToArray(new int[]{9, 9})));
+        System.out.println("Array: " + Arrays.toString(IntegerAlgorithms.addOneToArray(new int[]{1, 3, 2, 4})));
+
+        int arr[] = {1, 0, 0, 0, 4, 5, 6, 8};
+        int n = arr.length;
+        IntegerAlgorithms.pushZerosToEnd(arr, n);
+        System.out.println("Array after pushing zeros to the back: ");
+        for (int i = 0; i < n; i++)
+            System.out.print(arr[i] + " ");
     }
 }
